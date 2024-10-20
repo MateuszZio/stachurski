@@ -1,0 +1,44 @@
+body {
+    background-image: url('tlo.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.image {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
